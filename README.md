@@ -4,6 +4,6 @@
 
 
 ##License
-CC0ライセンスの元で公開しています。
+SIL Open Font Licenseライセンスの元で公開しています。
 
-http://creativecommons.org/publicdomain/zero/1.0/
+http://ja.wikipedia.org/wiki/SIL_Open_Font_License
