@@ -1,0 +1,1409 @@
+languagesystem DFLT dflt;
+languagesystem cyrl BGR ;
+languagesystem cyrl dflt;
+languagesystem cyrl MKD ;
+languagesystem cyrl RUS ;
+languagesystem cyrl SRB ;
+languagesystem latn CAT ;
+languagesystem latn dflt;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+
+
+# GSUB 
+
+
+lookup swshSwashlookup13 {
+  lookupflag 0;
+    sub \afii10024 by \afii10024.swsh ;
+    sub \afii10028 by \afii10028.swsh ;
+    sub \afii10072 by \afii10072.swsh ;
+    sub \afii10076 by \afii10076.swsh ;
+} swshSwashlookup13;
+
+lookup aaltAccessAllAlternateslookup0 {
+  lookupflag 0;
+    sub \afii10021 by \uni0414.loclBGR ;
+    sub \afii10029 by \uni041B.loclBGR ;
+    sub \afii10067 by \uni0432.loclBGR ;
+    sub \afii10068 by \uni0433.loclBGR ;
+    sub \afii10069 by \uni0434.loclBGR ;
+    sub \afii10072 by \uni0436.loclBGR ;
+    sub \afii10073 by \uni0437.loclBGR ;
+    sub \afii10074 by \uni0438.loclBGR ;
+    sub \afii10075 by \uni0439.loclBGR ;
+    sub \afii10076 by \uni043A.loclBGR ;
+    sub \afii10077 by \uni043B.loclBGR ;
+    sub \afii10081 by \uni043F.loclBGR ;
+    sub \afii10084 by \uni0442.loclBGR ;
+    sub \afii10088 by \uni0446.loclBGR ;
+    sub \afii10090 by \uni0448.loclBGR ;
+    sub \afii10091 by \uni0449.loclBGR ;
+    sub \afii10092 by \uni044A.loclBGR ;
+    sub \afii10093 by \uni044B.loclBGR ;
+    sub \afii10094 by \uni044C.loclBGR ;
+    sub \afii10096 by \uni044E.loclBGR ;
+    sub \Scedilla by \Scommaaccent ;
+    sub \Tcommaaccent by \uni021A ;
+    sub \scedilla by \scommaaccent ;
+    sub \tcommaaccent by \uni021B ;
+    sub \uni045D by \uni045D.loclBGR ;
+} aaltAccessAllAlternateslookup0;
+
+lookup loclLocalizedFormsinCyrilliclookup1 {
+  lookupflag 0;
+    sub \afii10021 by \uni0414.loclBGR ;
+    sub \afii10029 by \uni041B.loclBGR ;
+    sub \afii10067 by \uni0432.loclBGR ;
+    sub \afii10068 by \uni0433.loclBGR ;
+    sub \afii10069 by \uni0434.loclBGR ;
+    sub \afii10072 by \uni0436.loclBGR ;
+    sub \afii10073 by \uni0437.loclBGR ;
+    sub \afii10074 by \uni0438.loclBGR ;
+    sub \afii10075 by \uni0439.loclBGR ;
+    sub \afii10076 by \uni043A.loclBGR ;
+    sub \afii10077 by \uni043B.loclBGR ;
+    sub \afii10081 by \uni043F.loclBGR ;
+    sub \afii10084 by \uni0442.loclBGR ;
+    sub \afii10088 by \uni0446.loclBGR ;
+    sub \afii10090 by \uni0448.loclBGR ;
+    sub \afii10091 by \uni0449.loclBGR ;
+    sub \afii10092 by \uni044A.loclBGR ;
+    sub \afii10093 by \uni044B.loclBGR ;
+    sub \afii10094 by \uni044C.loclBGR ;
+    sub \afii10096 by \uni044E.loclBGR ;
+    sub \uni045D by \uni045D.loclBGR ;
+} loclLocalizedFormsinCyrilliclookup1;
+
+lookup loclLocalizedFormsinLatinlookup2 {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \Tcommaaccent by \uni021A ;
+    sub \scedilla by \scommaaccent ;
+    sub \tcommaaccent by \uni021B ;
+} loclLocalizedFormsinLatinlookup2;
+
+lookup loclLocalizedFormsinLatinlookup3 {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \Tcommaaccent by \uni021A ;
+    sub \scedilla by \scommaaccent ;
+    sub \tcommaaccent by \uni021B ;
+} loclLocalizedFormsinLatinlookup3;
+
+lookup LigatureSubstitutionlookup12 {
+  lookupflag 0;
+    sub \L \periodcentered  by \Ldot;
+    sub \l \periodcentered  by \ldot;
+} LigatureSubstitutionlookup12;
+
+lookup loclLocalizedFormsinLatinlookup4 {
+  lookupflag 0;
+    sub [\l ]'lookup LigatureSubstitutionlookup12  [\periodcentered ]'lookup LigatureSubstitutionlookup12  [\l ] ;
+    sub [\L ]'lookup LigatureSubstitutionlookup12  [\periodcentered ]'lookup LigatureSubstitutionlookup12  [\L ] ;
+} loclLocalizedFormsinLatinlookup4;
+
+lookup ligaStandardLigatureslookup5 {
+  lookupflag 0;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+} ligaStandardLigatureslookup5;
+
+lookup ligaStandardLigaturesinCyrilliclookup6 {
+  lookupflag 0;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+} ligaStandardLigaturesinCyrilliclookup6;
+
+lookup ligaStandardLigaturesinLatinlookup7 {
+  lookupflag 0;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+} ligaStandardLigaturesinLatinlookup7;
+
+lookup ligaStandardLigaturesinLatinlookup8 {
+  lookupflag 0;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+} ligaStandardLigaturesinLatinlookup8;
+
+lookup ligaStandardLigaturesinLatinlookup9 {
+  lookupflag 0;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+} ligaStandardLigaturesinLatinlookup9;
+
+lookup ligaStandardLigaturesinLatinlookup10 {
+  lookupflag 0;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+} ligaStandardLigaturesinLatinlookup10;
+
+lookup ligaStandardLigaturesinLatinlookup11 {
+  lookupflag 0;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+} ligaStandardLigaturesinLatinlookup11;
+
+feature swsh {
+
+ script DFLT;
+     language dflt ;
+      lookup swshSwashlookup13;
+
+ script cyrl;
+     language dflt ;
+      lookup swshSwashlookup13;
+     language BGR  exclude_dflt;
+      lookup swshSwashlookup13;
+     language MKD  exclude_dflt;
+      lookup swshSwashlookup13;
+     language RUS  exclude_dflt;
+      lookup swshSwashlookup13;
+     language SRB  exclude_dflt;
+      lookup swshSwashlookup13;
+
+ script latn;
+     language dflt ;
+      lookup swshSwashlookup13;
+     language CAT  exclude_dflt;
+      lookup swshSwashlookup13;
+     language MOL  exclude_dflt;
+      lookup swshSwashlookup13;
+     language ROM  exclude_dflt;
+      lookup swshSwashlookup13;
+} swsh;
+
+feature aalt {
+
+ script DFLT;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+
+ script cyrl;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+     language BGR  exclude_dflt;
+      lookup aaltAccessAllAlternateslookup0;
+
+ script latn;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+     language CAT  exclude_dflt;
+      lookup aaltAccessAllAlternateslookup0;
+     language MOL  exclude_dflt;
+      lookup aaltAccessAllAlternateslookup0;
+     language ROM  exclude_dflt;
+      lookup aaltAccessAllAlternateslookup0;
+} aalt;
+
+feature locl {
+
+ script cyrl;
+     language BGR  exclude_dflt;
+      lookup loclLocalizedFormsinCyrilliclookup1;
+
+ script latn;
+     language CAT  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup4;
+     language MOL  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup2;
+     language ROM  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup3;
+} locl;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup5;
+
+ script cyrl;
+     language dflt ;
+      lookup ligaStandardLigatureslookup5;
+      lookup ligaStandardLigaturesinCyrilliclookup6;
+     language BGR  exclude_dflt;
+      lookup ligaStandardLigatureslookup5;
+      lookup ligaStandardLigaturesinCyrilliclookup6;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup5;
+      lookup ligaStandardLigaturesinLatinlookup7;
+      lookup ligaStandardLigaturesinLatinlookup8;
+      lookup ligaStandardLigaturesinLatinlookup9;
+      lookup ligaStandardLigaturesinLatinlookup10;
+      lookup ligaStandardLigaturesinLatinlookup11;
+     language CAT  exclude_dflt;
+      lookup ligaStandardLigatureslookup5;
+      lookup ligaStandardLigaturesinLatinlookup7;
+      lookup ligaStandardLigaturesinLatinlookup8;
+      lookup ligaStandardLigaturesinLatinlookup9;
+      lookup ligaStandardLigaturesinLatinlookup10;
+      lookup ligaStandardLigaturesinLatinlookup11;
+     language MOL  exclude_dflt;
+      lookup ligaStandardLigatureslookup5;
+      lookup ligaStandardLigaturesinLatinlookup7;
+      lookup ligaStandardLigaturesinLatinlookup8;
+      lookup ligaStandardLigaturesinLatinlookup9;
+      lookup ligaStandardLigaturesinLatinlookup10;
+      lookup ligaStandardLigaturesinLatinlookup11;
+     language ROM  exclude_dflt;
+      lookup ligaStandardLigatureslookup5;
+      lookup ligaStandardLigaturesinLatinlookup7;
+      lookup ligaStandardLigaturesinLatinlookup8;
+      lookup ligaStandardLigaturesinLatinlookup9;
+      lookup ligaStandardLigaturesinLatinlookup10;
+      lookup ligaStandardLigaturesinLatinlookup11;
+} liga;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    pos \A \U -14;
+    pos \Aacute \U -14;
+    pos \Abreve \U -14;
+    pos \Acircumflex \U -14;
+    pos \Adieresis \U -14;
+    pos \Agrave \U -14;
+    pos \Amacron \U -14;
+    pos \Aogonek \U -14;
+    pos \Aring \U -14;
+    pos \Atilde \U -14;
+  subtable;
+    @kc16_first_0 = [\F ];
+    @kc16_first_1 = [\V ];
+    @kc16_first_2 = [\A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring 
+	\Atilde ];
+    @kc16_first_3 = [\C \Cacute \Ccaron \Ccedilla \Cdotaccent ];
+    @kc16_first_4 = [\D \O \Eth \Dcaron \Dcroat \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut 
+	\Omacron \Oslash \Otilde ];
+    @kc16_first_5 = [\G \Gbreve \Gcommaaccent \Gdotaccent ];
+    @kc16_first_6 = [\J \IJ ];
+    @kc16_first_7 = [\K \Kcommaaccent ];
+    @kc16_first_8 = [\L \Lacute \Lcaron \Lcommaaccent \Ldot \Lslash ];
+    @kc16_first_9 = [\P ];
+    @kc16_first_10 = [\S \Sacute \Scaron \Scedilla \Scommaaccent ];
+    @kc16_first_11 = [\T \Tbar \Tcaron \Tcedilla \uni021A ];
+    @kc16_first_12 = [\U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek 
+	\Uring ];
+    @kc16_first_13 = [\W \Wacute \Wcircumflex \Wdieresis \Wgrave ];
+    @kc16_first_14 = [\Y \Yacute \Ycircumflex \Ydieresis \Ygrave ];
+    @kc16_first_15 = [\Z \Zacute \Zcaron \Zdotaccent ];
+    @kc16_first_16 = [\k \kcommaaccent ];
+    @kc16_first_17 = [\l \lacute \lcaron \lcommaaccent \ldot \fl ];
+    @kc16_first_18 = [\r \racute \rcaron \rcommaaccent ];
+    @kc16_first_19 = [\v ];
+    @kc16_first_20 = [\w \wacute \wcircumflex \wdieresis \wgrave ];
+    @kc16_first_21 = [\z \zacute \zcaron \zdotaccent ];
+    @kc16_second_1 = [\J ];
+    @kc16_second_2 = [\C \G \O \Q \Cacute \Ccaron \Ccedilla \Cdotaccent \Gbreve \Gcommaaccent 
+	\Gdotaccent \Oacute \Ocircumflex \Odieresis \Ograve \Ohungarumlaut 
+	\Omacron \Oslash \Otilde \OE ];
+    @kc16_second_3 = [\S \Sacute \Scaron \Scedilla \Scommaaccent ];
+    @kc16_second_4 = [\T \Tbar \Tcaron \Tcedilla \uni021A ];
+    @kc16_second_5 = [\U \Uacute \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek 
+	\Uring ];
+    @kc16_second_6 = [\V ];
+    @kc16_second_7 = [\W \Wacute \Wcircumflex \Wdieresis \Wgrave ];
+    @kc16_second_8 = [\Y \Yacute \Ycircumflex \Ydieresis \Ygrave ];
+    @kc16_second_9 = [\t \tbar \tcaron \tcedilla \uni021B ];
+    @kc16_second_10 = [\v ];
+    @kc16_second_11 = [\w \wacute \wcircumflex \wdieresis \wgrave ];
+    @kc16_second_12 = [\y \yacute \ycircumflex \ydieresis \ygrave ];
+    @kc16_second_13 = [\quotedblright \quoteright ];
+    @kc16_second_14 = [\A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring 
+	\Atilde ];
+    @kc16_second_15 = [\Z \Zacute \Zcaron \Zdotaccent ];
+    @kc16_second_16 = [\a \aacute \abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring 
+	\atilde \ae ];
+    @kc16_second_17 = [\c \d \e \g \o \q \cacute \ccaron \ccedilla \cdotaccent \eth \dcaron \dcroat \eacute 
+	\ecaron \ecircumflex \edieresis \edotaccent \egrave \emacron \eogonek 
+	\gbreve \gcommaaccent \gdotaccent \oacute \ocircumflex \odieresis 
+	\ograve \ohungarumlaut \omacron \oslash \otilde \oe ];
+    @kc16_second_18 = [\b \h \k \kcommaaccent \thorn ];
+    @kc16_second_19 = [\m \n \p \r \nacute \ncaron \ncommaaccent \eng \ntilde \racute \rcaron 
+	\rcommaaccent ];
+    @kc16_second_20 = [\u \uacute \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron \uogonek 
+	\uring ];
+    @kc16_second_21 = [\z \zacute \zcaron \zdotaccent ];
+    @kc16_second_22 = [\period \ellipsis ];
+    pos @kc16_first_0 @kc16_second_1 -74;
+    pos @kc16_first_0 @kc16_second_14 -44;
+    pos @kc16_first_1 @kc16_second_1 -67;
+    pos @kc16_first_1 @kc16_second_2 10;
+    pos @kc16_first_1 @kc16_second_14 -74;
+    pos @kc16_first_1 @kc16_second_16 -5;
+    pos @kc16_first_1 @kc16_second_17 -10;
+    pos @kc16_first_2 @kc16_second_2 -24;
+    pos @kc16_first_2 @kc16_second_3 -4;
+    pos @kc16_first_2 @kc16_second_4 -84;
+    pos @kc16_first_2 @kc16_second_5 -6;
+    pos @kc16_first_2 @kc16_second_6 -80;
+    pos @kc16_first_2 @kc16_second_7 -33;
+    pos @kc16_first_2 @kc16_second_8 -76;
+    pos @kc16_first_2 @kc16_second_9 -8;
+    pos @kc16_first_2 @kc16_second_10 -36;
+    pos @kc16_first_2 @kc16_second_11 -30;
+    pos @kc16_first_2 @kc16_second_12 -16;
+    pos @kc16_first_2 @kc16_second_13 -61;
+    pos @kc16_first_3 @kc16_second_4 -6;
+    pos @kc16_first_3 @kc16_second_14 -18;
+    pos @kc16_first_4 @kc16_second_4 -25;
+    pos @kc16_first_4 @kc16_second_6 8;
+    pos @kc16_first_4 @kc16_second_7 14;
+    pos @kc16_first_4 @kc16_second_8 -14;
+    pos @kc16_first_4 @kc16_second_14 -24;
+    pos @kc16_first_4 @kc16_second_15 -16;
+    pos @kc16_first_5 @kc16_second_4 -32;
+    pos @kc16_first_5 @kc16_second_8 -32;
+    pos @kc16_first_6 @kc16_second_14 -12;
+    pos @kc16_first_7 @kc16_second_16 9;
+    pos @kc16_first_7 @kc16_second_17 -32;
+    pos @kc16_first_8 @kc16_second_2 -50;
+    pos @kc16_first_8 @kc16_second_4 -150;
+    pos @kc16_first_8 @kc16_second_6 -128;
+    pos @kc16_first_8 @kc16_second_7 -82;
+    pos @kc16_first_8 @kc16_second_8 -130;
+    pos @kc16_first_9 @kc16_second_14 -33;
+    pos @kc16_first_10 @kc16_second_14 -11;
+    pos @kc16_first_11 @kc16_second_2 -19;
+    pos @kc16_first_11 @kc16_second_14 -61;
+    pos @kc16_first_11 @kc16_second_16 -62;
+    pos @kc16_first_11 @kc16_second_17 -72;
+    pos @kc16_first_11 @kc16_second_18 -26;
+    pos @kc16_first_11 @kc16_second_19 -64;
+    pos @kc16_first_11 @kc16_second_20 -48;
+    pos @kc16_first_12 @kc16_second_14 -14;
+    pos @kc16_first_13 @kc16_second_2 18;
+    pos @kc16_first_13 @kc16_second_14 -31;
+    pos @kc16_first_13 @kc16_second_16 3;
+    pos @kc16_first_14 @kc16_second_14 -84;
+    pos @kc16_first_14 @kc16_second_16 -36;
+    pos @kc16_first_14 @kc16_second_17 -42;
+    pos @kc16_first_14 @kc16_second_20 -20;
+    pos @kc16_first_14 @kc16_second_21 -18;
+    pos @kc16_first_15 @kc16_second_2 -32;
+    pos @kc16_first_16 @kc16_second_16 2;
+    pos @kc16_first_16 @kc16_second_17 -22;
+    pos @kc16_first_17 @kc16_second_10 -7;
+    pos @kc16_first_17 @kc16_second_16 18;
+    pos @kc16_first_18 @kc16_second_17 -3;
+    pos @kc16_first_19 @kc16_second_22 -50;
+    pos @kc16_first_20 @kc16_second_22 -50;
+    pos @kc16_first_21 @kc16_second_17 -6;
+} kernHorizontalKerninglookup0;
+
+lookup cpspCapitalSpacinglookup1 {
+  lookupflag 0;
+    pos \A <5 0 10 0>;
+    pos \B <5 0 10 0>;
+    pos \C <5 0 10 0>;
+    pos \D <5 0 10 0>;
+    pos \E <5 0 10 0>;
+    pos \F <5 0 10 0>;
+    pos \G <5 0 10 0>;
+    pos \H <5 0 10 0>;
+    pos \I <5 0 10 0>;
+    pos \J <5 0 10 0>;
+    pos \K <5 0 10 0>;
+    pos \L <5 0 10 0>;
+    pos \M <5 0 10 0>;
+    pos \N <5 0 10 0>;
+    pos \O <5 0 10 0>;
+    pos \P <5 0 10 0>;
+    pos \Q <5 0 10 0>;
+    pos \R <5 0 10 0>;
+    pos \S <5 0 10 0>;
+    pos \T <5 0 10 0>;
+    pos \U <5 0 10 0>;
+    pos \V <5 0 10 0>;
+    pos \W <5 0 10 0>;
+    pos \X <5 0 10 0>;
+    pos \Y <5 0 10 0>;
+    pos \Z <5 0 10 0>;
+    pos \Aacute <5 0 10 0>;
+    pos \Abreve <5 0 10 0>;
+    pos \Acircumflex <5 0 10 0>;
+    pos \Adieresis <5 0 10 0>;
+    pos \Agrave <5 0 10 0>;
+    pos \Amacron <5 0 10 0>;
+    pos \Aogonek <5 0 10 0>;
+    pos \Aring <5 0 10 0>;
+    pos \Atilde <5 0 10 0>;
+    pos \AE <5 0 10 0>;
+    pos \Cacute <5 0 10 0>;
+    pos \Ccaron <5 0 10 0>;
+    pos \Ccedilla <5 0 10 0>;
+    pos \Cdotaccent <5 0 10 0>;
+    pos \Eth <5 0 10 0>;
+    pos \Dcaron <5 0 10 0>;
+    pos \Dcroat <5 0 10 0>;
+    pos \Eacute <5 0 10 0>;
+    pos \Ecaron <5 0 10 0>;
+    pos \Ecircumflex <5 0 10 0>;
+    pos \Edieresis <5 0 10 0>;
+    pos \Edotaccent <5 0 10 0>;
+    pos \Egrave <5 0 10 0>;
+    pos \Emacron <5 0 10 0>;
+    pos \Eogonek <5 0 10 0>;
+    pos \Gbreve <5 0 10 0>;
+    pos \Gcommaaccent <5 0 10 0>;
+    pos \Gdotaccent <5 0 10 0>;
+    pos \Hbar <5 0 10 0>;
+    pos \IJ <5 0 10 0>;
+    pos \Iacute <5 0 10 0>;
+    pos \Icircumflex <5 0 10 0>;
+    pos \Idieresis <5 0 10 0>;
+    pos \Idotaccent <5 0 10 0>;
+    pos \Igrave <5 0 10 0>;
+    pos \Imacron <5 0 10 0>;
+    pos \Iogonek <5 0 10 0>;
+    pos \Kcommaaccent <5 0 10 0>;
+    pos \Lacute <5 0 10 0>;
+    pos \Lcaron <5 0 10 0>;
+    pos \Lcommaaccent <5 0 10 0>;
+    pos \Ldot <5 0 10 0>;
+    pos \Lslash <5 0 10 0>;
+    pos \Nacute <5 0 10 0>;
+    pos \Ncaron <5 0 10 0>;
+    pos \Ncommaaccent <5 0 10 0>;
+    pos \Eng <5 0 10 0>;
+    pos \Ntilde <5 0 10 0>;
+    pos \Oacute <5 0 10 0>;
+    pos \Ocircumflex <5 0 10 0>;
+    pos \Odieresis <5 0 10 0>;
+    pos \Ograve <5 0 10 0>;
+    pos \Ohungarumlaut <5 0 10 0>;
+    pos \Omacron <5 0 10 0>;
+    pos \Oslash <5 0 10 0>;
+    pos \Otilde <5 0 10 0>;
+    pos \OE <5 0 10 0>;
+    pos \Thorn <5 0 10 0>;
+    pos \Racute <5 0 10 0>;
+    pos \Rcaron <5 0 10 0>;
+    pos \Rcommaaccent <5 0 10 0>;
+    pos \Sacute <5 0 10 0>;
+    pos \Scaron <5 0 10 0>;
+    pos \Scedilla <5 0 10 0>;
+    pos \Scommaaccent <5 0 10 0>;
+    pos \Tbar <5 0 10 0>;
+    pos \Tcaron <5 0 10 0>;
+    pos \Tcommaaccent <5 0 10 0>;
+    pos \uni021A <5 0 10 0>;
+    pos \Uacute <5 0 10 0>;
+    pos \Ucircumflex <5 0 10 0>;
+    pos \Udieresis <5 0 10 0>;
+    pos \Ugrave <5 0 10 0>;
+    pos \Uhungarumlaut <5 0 10 0>;
+    pos \Umacron <5 0 10 0>;
+    pos \Uogonek <5 0 10 0>;
+    pos \Uring <5 0 10 0>;
+    pos \Wacute <5 0 10 0>;
+    pos \Wcircumflex <5 0 10 0>;
+    pos \Wdieresis <5 0 10 0>;
+    pos \Wgrave <5 0 10 0>;
+    pos \Yacute <5 0 10 0>;
+    pos \Ycircumflex <5 0 10 0>;
+    pos \Ydieresis <5 0 10 0>;
+    pos \Ygrave <5 0 10 0>;
+    pos \Zacute <5 0 10 0>;
+    pos \Zcaron <5 0 10 0>;
+    pos \Zdotaccent <5 0 10 0>;
+} cpspCapitalSpacinglookup1;
+
+lookup cpspCapitalSpacinglookup2 {
+  lookupflag 0;
+    pos \A <5 0 10 0>;
+    pos \B <5 0 10 0>;
+    pos \C <5 0 10 0>;
+    pos \D <5 0 10 0>;
+    pos \E <5 0 10 0>;
+    pos \F <5 0 10 0>;
+    pos \G <5 0 10 0>;
+    pos \H <5 0 10 0>;
+    pos \I <5 0 10 0>;
+    pos \J <5 0 10 0>;
+    pos \K <5 0 10 0>;
+    pos \L <5 0 10 0>;
+    pos \M <5 0 10 0>;
+    pos \N <5 0 10 0>;
+    pos \O <5 0 10 0>;
+    pos \P <5 0 10 0>;
+    pos \Q <5 0 10 0>;
+    pos \R <5 0 10 0>;
+    pos \S <5 0 10 0>;
+    pos \T <5 0 10 0>;
+    pos \U <5 0 10 0>;
+    pos \V <5 0 10 0>;
+    pos \W <5 0 10 0>;
+    pos \X <5 0 10 0>;
+    pos \Y <5 0 10 0>;
+    pos \Z <5 0 10 0>;
+    pos \Aacute <5 0 10 0>;
+    pos \Abreve <5 0 10 0>;
+    pos \Acircumflex <5 0 10 0>;
+    pos \Adieresis <5 0 10 0>;
+    pos \Agrave <5 0 10 0>;
+    pos \Amacron <5 0 10 0>;
+    pos \Aogonek <5 0 10 0>;
+    pos \Aring <5 0 10 0>;
+    pos \Atilde <5 0 10 0>;
+    pos \AE <5 0 10 0>;
+    pos \Cacute <5 0 10 0>;
+    pos \Ccaron <5 0 10 0>;
+    pos \Ccedilla <5 0 10 0>;
+    pos \Cdotaccent <5 0 10 0>;
+    pos \Eth <5 0 10 0>;
+    pos \Dcaron <5 0 10 0>;
+    pos \Dcroat <5 0 10 0>;
+    pos \Eacute <5 0 10 0>;
+    pos \Ecaron <5 0 10 0>;
+    pos \Ecircumflex <5 0 10 0>;
+    pos \Edieresis <5 0 10 0>;
+    pos \Edotaccent <5 0 10 0>;
+    pos \Egrave <5 0 10 0>;
+    pos \Emacron <5 0 10 0>;
+    pos \Eogonek <5 0 10 0>;
+    pos \Gbreve <5 0 10 0>;
+    pos \Gcommaaccent <5 0 10 0>;
+    pos \Gdotaccent <5 0 10 0>;
+    pos \Hbar <5 0 10 0>;
+    pos \IJ <5 0 10 0>;
+    pos \Iacute <5 0 10 0>;
+    pos \Icircumflex <5 0 10 0>;
+    pos \Idieresis <5 0 10 0>;
+    pos \Idotaccent <5 0 10 0>;
+    pos \Igrave <5 0 10 0>;
+    pos \Imacron <5 0 10 0>;
+    pos \Iogonek <5 0 10 0>;
+    pos \Kcommaaccent <5 0 10 0>;
+    pos \Lacute <5 0 10 0>;
+    pos \Lcaron <5 0 10 0>;
+    pos \Lcommaaccent <5 0 10 0>;
+    pos \Ldot <5 0 10 0>;
+    pos \Lslash <5 0 10 0>;
+    pos \Nacute <5 0 10 0>;
+    pos \Ncaron <5 0 10 0>;
+    pos \Ncommaaccent <5 0 10 0>;
+    pos \Eng <5 0 10 0>;
+    pos \Ntilde <5 0 10 0>;
+    pos \Oacute <5 0 10 0>;
+    pos \Ocircumflex <5 0 10 0>;
+    pos \Odieresis <5 0 10 0>;
+    pos \Ograve <5 0 10 0>;
+    pos \Ohungarumlaut <5 0 10 0>;
+    pos \Omacron <5 0 10 0>;
+    pos \Oslash <5 0 10 0>;
+    pos \Otilde <5 0 10 0>;
+    pos \OE <5 0 10 0>;
+    pos \Thorn <5 0 10 0>;
+    pos \Racute <5 0 10 0>;
+    pos \Rcaron <5 0 10 0>;
+    pos \Rcommaaccent <5 0 10 0>;
+    pos \Sacute <5 0 10 0>;
+    pos \Scaron <5 0 10 0>;
+    pos \Scedilla <5 0 10 0>;
+    pos \Scommaaccent <5 0 10 0>;
+    pos \Tbar <5 0 10 0>;
+    pos \Tcaron <5 0 10 0>;
+    pos \Tcommaaccent <5 0 10 0>;
+    pos \uni021A <5 0 10 0>;
+    pos \Uacute <5 0 10 0>;
+    pos \Ucircumflex <5 0 10 0>;
+    pos \Udieresis <5 0 10 0>;
+    pos \Ugrave <5 0 10 0>;
+    pos \Uhungarumlaut <5 0 10 0>;
+    pos \Umacron <5 0 10 0>;
+    pos \Uogonek <5 0 10 0>;
+    pos \Uring <5 0 10 0>;
+    pos \Wacute <5 0 10 0>;
+    pos \Wcircumflex <5 0 10 0>;
+    pos \Wdieresis <5 0 10 0>;
+    pos \Wgrave <5 0 10 0>;
+    pos \Yacute <5 0 10 0>;
+    pos \Ycircumflex <5 0 10 0>;
+    pos \Ydieresis <5 0 10 0>;
+    pos \Ygrave <5 0 10 0>;
+    pos \Zacute <5 0 10 0>;
+    pos \Zcaron <5 0 10 0>;
+    pos \Zdotaccent <5 0 10 0>;
+} cpspCapitalSpacinglookup2;
+
+lookup cpspCapitalSpacinginCyrilliclookup3 {
+  lookupflag 0;
+    pos \A <5 0 10 0>;
+    pos \B <5 0 10 0>;
+    pos \C <5 0 10 0>;
+    pos \D <5 0 10 0>;
+    pos \E <5 0 10 0>;
+    pos \F <5 0 10 0>;
+    pos \G <5 0 10 0>;
+    pos \H <5 0 10 0>;
+    pos \I <5 0 10 0>;
+    pos \J <5 0 10 0>;
+    pos \K <5 0 10 0>;
+    pos \L <5 0 10 0>;
+    pos \M <5 0 10 0>;
+    pos \N <5 0 10 0>;
+    pos \O <5 0 10 0>;
+    pos \P <5 0 10 0>;
+    pos \Q <5 0 10 0>;
+    pos \R <5 0 10 0>;
+    pos \S <5 0 10 0>;
+    pos \T <5 0 10 0>;
+    pos \U <5 0 10 0>;
+    pos \V <5 0 10 0>;
+    pos \W <5 0 10 0>;
+    pos \X <5 0 10 0>;
+    pos \Y <5 0 10 0>;
+    pos \Z <5 0 10 0>;
+    pos \afii10023 <5 0 10 0>;
+    pos \afii10052 <5 0 10 0>;
+    pos \afii10053 <5 0 10 0>;
+    pos \afii10054 <5 0 10 0>;
+    pos \afii10055 <5 0 10 0>;
+    pos \afii10056 <5 0 10 0>;
+    pos \afii10057 <5 0 10 0>;
+    pos \afii10061 <5 0 10 0>;
+    pos \afii10062 <5 0 10 0>;
+    pos \afii10017 <5 0 10 0>;
+    pos \afii10018 <5 0 10 0>;
+    pos \afii10019 <5 0 10 0>;
+    pos \afii10020 <5 0 10 0>;
+    pos \afii10021 <5 0 10 0>;
+    pos \afii10022 <5 0 10 0>;
+    pos \afii10024 <5 0 10 0>;
+    pos \afii10025 <5 0 10 0>;
+    pos \afii10026 <5 0 10 0>;
+    pos \afii10027 <5 0 10 0>;
+    pos \afii10028 <5 0 10 0>;
+    pos \afii10029 <5 0 10 0>;
+    pos \afii10030 <5 0 10 0>;
+    pos \afii10031 <5 0 10 0>;
+    pos \afii10032 <5 0 10 0>;
+    pos \afii10033 <5 0 10 0>;
+    pos \afii10034 <5 0 10 0>;
+    pos \afii10035 <5 0 10 0>;
+    pos \afii10036 <5 0 10 0>;
+    pos \afii10037 <5 0 10 0>;
+    pos \afii10038 <5 0 10 0>;
+    pos \afii10039 <5 0 10 0>;
+    pos \afii10040 <5 0 10 0>;
+    pos \afii10041 <5 0 10 0>;
+    pos \afii10042 <5 0 10 0>;
+    pos \afii10043 <5 0 10 0>;
+    pos \afii10044 <5 0 10 0>;
+    pos \afii10045 <5 0 10 0>;
+    pos \afii10046 <5 0 10 0>;
+    pos \afii10047 <5 0 10 0>;
+    pos \afii10048 <5 0 10 0>;
+    pos \afii10049 <5 0 10 0>;
+    pos \afii61352 <5 0 10 0>;
+    pos \uni0414.loclBGR <5 0 10 0>;
+    pos \uni041B.loclBGR <5 0 10 0>;
+    pos \Aacute <5 0 10 0>;
+    pos \Abreve <5 0 10 0>;
+    pos \Acircumflex <5 0 10 0>;
+    pos \Adieresis <5 0 10 0>;
+    pos \Agrave <5 0 10 0>;
+    pos \Amacron <5 0 10 0>;
+    pos \Aogonek <5 0 10 0>;
+    pos \Aring <5 0 10 0>;
+    pos \Atilde <5 0 10 0>;
+    pos \AE <5 0 10 0>;
+    pos \Cacute <5 0 10 0>;
+    pos \Ccaron <5 0 10 0>;
+    pos \Ccedilla <5 0 10 0>;
+    pos \Cdotaccent <5 0 10 0>;
+    pos \Eth <5 0 10 0>;
+    pos \Dcaron <5 0 10 0>;
+    pos \Dcroat <5 0 10 0>;
+    pos \Eacute <5 0 10 0>;
+    pos \Ecaron <5 0 10 0>;
+    pos \Ecircumflex <5 0 10 0>;
+    pos \Edieresis <5 0 10 0>;
+    pos \Edotaccent <5 0 10 0>;
+    pos \Egrave <5 0 10 0>;
+    pos \Emacron <5 0 10 0>;
+    pos \Eogonek <5 0 10 0>;
+    pos \Gbreve <5 0 10 0>;
+    pos \Gcommaaccent <5 0 10 0>;
+    pos \Gdotaccent <5 0 10 0>;
+    pos \Hbar <5 0 10 0>;
+    pos \IJ <5 0 10 0>;
+    pos \Iacute <5 0 10 0>;
+    pos \Icircumflex <5 0 10 0>;
+    pos \Idieresis <5 0 10 0>;
+    pos \Idotaccent <5 0 10 0>;
+    pos \Igrave <5 0 10 0>;
+    pos \Imacron <5 0 10 0>;
+    pos \Iogonek <5 0 10 0>;
+    pos \Kcommaaccent <5 0 10 0>;
+    pos \Lacute <5 0 10 0>;
+    pos \Lcaron <5 0 10 0>;
+    pos \Lcommaaccent <5 0 10 0>;
+    pos \Ldot <5 0 10 0>;
+    pos \Lslash <5 0 10 0>;
+    pos \Nacute <5 0 10 0>;
+    pos \Ncaron <5 0 10 0>;
+    pos \Ncommaaccent <5 0 10 0>;
+    pos \Eng <5 0 10 0>;
+    pos \Ntilde <5 0 10 0>;
+    pos \Oacute <5 0 10 0>;
+    pos \Ocircumflex <5 0 10 0>;
+    pos \Odieresis <5 0 10 0>;
+    pos \Ograve <5 0 10 0>;
+    pos \Ohungarumlaut <5 0 10 0>;
+    pos \Omacron <5 0 10 0>;
+    pos \Oslash <5 0 10 0>;
+    pos \Otilde <5 0 10 0>;
+    pos \OE <5 0 10 0>;
+    pos \Thorn <5 0 10 0>;
+    pos \Racute <5 0 10 0>;
+    pos \Rcaron <5 0 10 0>;
+    pos \Rcommaaccent <5 0 10 0>;
+    pos \Sacute <5 0 10 0>;
+    pos \Scaron <5 0 10 0>;
+    pos \Scedilla <5 0 10 0>;
+    pos \Scommaaccent <5 0 10 0>;
+    pos \Tbar <5 0 10 0>;
+    pos \Tcaron <5 0 10 0>;
+    pos \Tcommaaccent <5 0 10 0>;
+    pos \uni021A <5 0 10 0>;
+    pos \Uacute <5 0 10 0>;
+    pos \Ucircumflex <5 0 10 0>;
+    pos \Udieresis <5 0 10 0>;
+    pos \Ugrave <5 0 10 0>;
+    pos \Uhungarumlaut <5 0 10 0>;
+    pos \Umacron <5 0 10 0>;
+    pos \Uogonek <5 0 10 0>;
+    pos \Uring <5 0 10 0>;
+    pos \Wacute <5 0 10 0>;
+    pos \Wcircumflex <5 0 10 0>;
+    pos \Wdieresis <5 0 10 0>;
+    pos \Wgrave <5 0 10 0>;
+    pos \Yacute <5 0 10 0>;
+    pos \Ycircumflex <5 0 10 0>;
+    pos \Ydieresis <5 0 10 0>;
+    pos \Ygrave <5 0 10 0>;
+    pos \Zacute <5 0 10 0>;
+    pos \Zcaron <5 0 10 0>;
+    pos \Zdotaccent <5 0 10 0>;
+    pos \afii10058 <5 0 10 0>;
+    pos \afii10059 <5 0 10 0>;
+    pos \afii10060 <5 0 10 0>;
+    pos \afii10051 <5 0 10 0>;
+    pos \afii10145 <5 0 10 0>;
+} cpspCapitalSpacinginCyrilliclookup3;
+
+lookup cpspCapitalSpacinginLatinlookup4 {
+  lookupflag 0;
+    pos \A <5 0 10 0>;
+    pos \B <5 0 10 0>;
+    pos \C <5 0 10 0>;
+    pos \D <5 0 10 0>;
+    pos \E <5 0 10 0>;
+    pos \F <5 0 10 0>;
+    pos \G <5 0 10 0>;
+    pos \H <5 0 10 0>;
+    pos \I <5 0 10 0>;
+    pos \J <5 0 10 0>;
+    pos \K <5 0 10 0>;
+    pos \L <5 0 10 0>;
+    pos \M <5 0 10 0>;
+    pos \N <5 0 10 0>;
+    pos \O <5 0 10 0>;
+    pos \P <5 0 10 0>;
+    pos \Q <5 0 10 0>;
+    pos \R <5 0 10 0>;
+    pos \S <5 0 10 0>;
+    pos \T <5 0 10 0>;
+    pos \U <5 0 10 0>;
+    pos \V <5 0 10 0>;
+    pos \W <5 0 10 0>;
+    pos \X <5 0 10 0>;
+    pos \Y <5 0 10 0>;
+    pos \Z <5 0 10 0>;
+    pos \Aacute <5 0 10 0>;
+    pos \Abreve <5 0 10 0>;
+    pos \Acircumflex <5 0 10 0>;
+    pos \Adieresis <5 0 10 0>;
+    pos \Agrave <5 0 10 0>;
+    pos \Amacron <5 0 10 0>;
+    pos \Aogonek <5 0 10 0>;
+    pos \Aring <5 0 10 0>;
+    pos \Atilde <5 0 10 0>;
+    pos \AE <5 0 10 0>;
+    pos \Cacute <5 0 10 0>;
+    pos \Ccaron <5 0 10 0>;
+    pos \Ccedilla <5 0 10 0>;
+    pos \Cdotaccent <5 0 10 0>;
+    pos \Eth <5 0 10 0>;
+    pos \Dcaron <5 0 10 0>;
+    pos \Dcroat <5 0 10 0>;
+    pos \Eacute <5 0 10 0>;
+    pos \Ecaron <5 0 10 0>;
+    pos \Ecircumflex <5 0 10 0>;
+    pos \Edieresis <5 0 10 0>;
+    pos \Edotaccent <5 0 10 0>;
+    pos \Egrave <5 0 10 0>;
+    pos \Emacron <5 0 10 0>;
+    pos \Eogonek <5 0 10 0>;
+    pos \Gbreve <5 0 10 0>;
+    pos \Gcommaaccent <5 0 10 0>;
+    pos \Gdotaccent <5 0 10 0>;
+    pos \Hbar <5 0 10 0>;
+    pos \IJ <5 0 10 0>;
+    pos \Iacute <5 0 10 0>;
+    pos \Icircumflex <5 0 10 0>;
+    pos \Idieresis <5 0 10 0>;
+    pos \Idotaccent <5 0 10 0>;
+    pos \Igrave <5 0 10 0>;
+    pos \Imacron <5 0 10 0>;
+    pos \Iogonek <5 0 10 0>;
+    pos \Kcommaaccent <5 0 10 0>;
+    pos \Lacute <5 0 10 0>;
+    pos \Lcaron <5 0 10 0>;
+    pos \Lcommaaccent <5 0 10 0>;
+    pos \Ldot <5 0 10 0>;
+    pos \Lslash <5 0 10 0>;
+    pos \Nacute <5 0 10 0>;
+    pos \Ncaron <5 0 10 0>;
+    pos \Ncommaaccent <5 0 10 0>;
+    pos \Eng <5 0 10 0>;
+    pos \Ntilde <5 0 10 0>;
+    pos \Oacute <5 0 10 0>;
+    pos \Ocircumflex <5 0 10 0>;
+    pos \Odieresis <5 0 10 0>;
+    pos \Ograve <5 0 10 0>;
+    pos \Ohungarumlaut <5 0 10 0>;
+    pos \Omacron <5 0 10 0>;
+    pos \Oslash <5 0 10 0>;
+    pos \Otilde <5 0 10 0>;
+    pos \OE <5 0 10 0>;
+    pos \Thorn <5 0 10 0>;
+    pos \Racute <5 0 10 0>;
+    pos \Rcaron <5 0 10 0>;
+    pos \Rcommaaccent <5 0 10 0>;
+    pos \Sacute <5 0 10 0>;
+    pos \Scaron <5 0 10 0>;
+    pos \Scedilla <5 0 10 0>;
+    pos \Scommaaccent <5 0 10 0>;
+    pos \Tbar <5 0 10 0>;
+    pos \Tcaron <5 0 10 0>;
+    pos \Tcommaaccent <5 0 10 0>;
+    pos \uni021A <5 0 10 0>;
+    pos \Uacute <5 0 10 0>;
+    pos \Ucircumflex <5 0 10 0>;
+    pos \Udieresis <5 0 10 0>;
+    pos \Ugrave <5 0 10 0>;
+    pos \Uhungarumlaut <5 0 10 0>;
+    pos \Umacron <5 0 10 0>;
+    pos \Uogonek <5 0 10 0>;
+    pos \Uring <5 0 10 0>;
+    pos \Wacute <5 0 10 0>;
+    pos \Wcircumflex <5 0 10 0>;
+    pos \Wdieresis <5 0 10 0>;
+    pos \Wgrave <5 0 10 0>;
+    pos \Yacute <5 0 10 0>;
+    pos \Ycircumflex <5 0 10 0>;
+    pos \Ydieresis <5 0 10 0>;
+    pos \Ygrave <5 0 10 0>;
+    pos \Zacute <5 0 10 0>;
+    pos \Zcaron <5 0 10 0>;
+    pos \Zdotaccent <5 0 10 0>;
+} cpspCapitalSpacinginLatinlookup4;
+
+lookup cpspCapitalSpacinginLatinlookup5 {
+  lookupflag 0;
+    pos \A <5 0 10 0>;
+    pos \B <5 0 10 0>;
+    pos \C <5 0 10 0>;
+    pos \D <5 0 10 0>;
+    pos \E <5 0 10 0>;
+    pos \F <5 0 10 0>;
+    pos \G <5 0 10 0>;
+    pos \H <5 0 10 0>;
+    pos \I <5 0 10 0>;
+    pos \J <5 0 10 0>;
+    pos \K <5 0 10 0>;
+    pos \L <5 0 10 0>;
+    pos \M <5 0 10 0>;
+    pos \N <5 0 10 0>;
+    pos \O <5 0 10 0>;
+    pos \P <5 0 10 0>;
+    pos \Q <5 0 10 0>;
+    pos \R <5 0 10 0>;
+    pos \S <5 0 10 0>;
+    pos \T <5 0 10 0>;
+    pos \U <5 0 10 0>;
+    pos \V <5 0 10 0>;
+    pos \W <5 0 10 0>;
+    pos \X <5 0 10 0>;
+    pos \Y <5 0 10 0>;
+    pos \Z <5 0 10 0>;
+    pos \Aacute <5 0 10 0>;
+    pos \Abreve <5 0 10 0>;
+    pos \Acircumflex <5 0 10 0>;
+    pos \Adieresis <5 0 10 0>;
+    pos \Agrave <5 0 10 0>;
+    pos \Amacron <5 0 10 0>;
+    pos \Aogonek <5 0 10 0>;
+    pos \Aring <5 0 10 0>;
+    pos \Atilde <5 0 10 0>;
+    pos \AE <5 0 10 0>;
+    pos \Cacute <5 0 10 0>;
+    pos \Ccaron <5 0 10 0>;
+    pos \Ccedilla <5 0 10 0>;
+    pos \Cdotaccent <5 0 10 0>;
+    pos \Eth <5 0 10 0>;
+    pos \Dcaron <5 0 10 0>;
+    pos \Dcroat <5 0 10 0>;
+    pos \Eacute <5 0 10 0>;
+    pos \Ecaron <5 0 10 0>;
+    pos \Ecircumflex <5 0 10 0>;
+    pos \Edieresis <5 0 10 0>;
+    pos \Edotaccent <5 0 10 0>;
+    pos \Egrave <5 0 10 0>;
+    pos \Emacron <5 0 10 0>;
+    pos \Eogonek <5 0 10 0>;
+    pos \Gbreve <5 0 10 0>;
+    pos \Gcommaaccent <5 0 10 0>;
+    pos \Gdotaccent <5 0 10 0>;
+    pos \Hbar <5 0 10 0>;
+    pos \IJ <5 0 10 0>;
+    pos \Iacute <5 0 10 0>;
+    pos \Icircumflex <5 0 10 0>;
+    pos \Idieresis <5 0 10 0>;
+    pos \Idotaccent <5 0 10 0>;
+    pos \Igrave <5 0 10 0>;
+    pos \Imacron <5 0 10 0>;
+    pos \Iogonek <5 0 10 0>;
+    pos \Kcommaaccent <5 0 10 0>;
+    pos \Lacute <5 0 10 0>;
+    pos \Lcaron <5 0 10 0>;
+    pos \Lcommaaccent <5 0 10 0>;
+    pos \Ldot <5 0 10 0>;
+    pos \Lslash <5 0 10 0>;
+    pos \Nacute <5 0 10 0>;
+    pos \Ncaron <5 0 10 0>;
+    pos \Ncommaaccent <5 0 10 0>;
+    pos \Eng <5 0 10 0>;
+    pos \Ntilde <5 0 10 0>;
+    pos \Oacute <5 0 10 0>;
+    pos \Ocircumflex <5 0 10 0>;
+    pos \Odieresis <5 0 10 0>;
+    pos \Ograve <5 0 10 0>;
+    pos \Ohungarumlaut <5 0 10 0>;
+    pos \Omacron <5 0 10 0>;
+    pos \Oslash <5 0 10 0>;
+    pos \Otilde <5 0 10 0>;
+    pos \OE <5 0 10 0>;
+    pos \Thorn <5 0 10 0>;
+    pos \Racute <5 0 10 0>;
+    pos \Rcaron <5 0 10 0>;
+    pos \Rcommaaccent <5 0 10 0>;
+    pos \Sacute <5 0 10 0>;
+    pos \Scaron <5 0 10 0>;
+    pos \Scedilla <5 0 10 0>;
+    pos \Scommaaccent <5 0 10 0>;
+    pos \Tbar <5 0 10 0>;
+    pos \Tcaron <5 0 10 0>;
+    pos \Tcommaaccent <5 0 10 0>;
+    pos \uni021A <5 0 10 0>;
+    pos \Uacute <5 0 10 0>;
+    pos \Ucircumflex <5 0 10 0>;
+    pos \Udieresis <5 0 10 0>;
+    pos \Ugrave <5 0 10 0>;
+    pos \Uhungarumlaut <5 0 10 0>;
+    pos \Umacron <5 0 10 0>;
+    pos \Uogonek <5 0 10 0>;
+    pos \Uring <5 0 10 0>;
+    pos \Wacute <5 0 10 0>;
+    pos \Wcircumflex <5 0 10 0>;
+    pos \Wdieresis <5 0 10 0>;
+    pos \Wgrave <5 0 10 0>;
+    pos \Yacute <5 0 10 0>;
+    pos \Ycircumflex <5 0 10 0>;
+    pos \Ydieresis <5 0 10 0>;
+    pos \Ygrave <5 0 10 0>;
+    pos \Zacute <5 0 10 0>;
+    pos \Zcaron <5 0 10 0>;
+    pos \Zdotaccent <5 0 10 0>;
+} cpspCapitalSpacinginLatinlookup5;
+
+lookup cpspCapitalSpacinginLatinlookup6 {
+  lookupflag 0;
+    pos \A <5 0 10 0>;
+    pos \B <5 0 10 0>;
+    pos \C <5 0 10 0>;
+    pos \D <5 0 10 0>;
+    pos \E <5 0 10 0>;
+    pos \F <5 0 10 0>;
+    pos \G <5 0 10 0>;
+    pos \H <5 0 10 0>;
+    pos \I <5 0 10 0>;
+    pos \J <5 0 10 0>;
+    pos \K <5 0 10 0>;
+    pos \L <5 0 10 0>;
+    pos \M <5 0 10 0>;
+    pos \N <5 0 10 0>;
+    pos \O <5 0 10 0>;
+    pos \P <5 0 10 0>;
+    pos \Q <5 0 10 0>;
+    pos \R <5 0 10 0>;
+    pos \S <5 0 10 0>;
+    pos \T <5 0 10 0>;
+    pos \U <5 0 10 0>;
+    pos \V <5 0 10 0>;
+    pos \W <5 0 10 0>;
+    pos \X <5 0 10 0>;
+    pos \Y <5 0 10 0>;
+    pos \Z <5 0 10 0>;
+    pos \Aacute <5 0 10 0>;
+    pos \Abreve <5 0 10 0>;
+    pos \Acircumflex <5 0 10 0>;
+    pos \Adieresis <5 0 10 0>;
+    pos \Agrave <5 0 10 0>;
+    pos \Amacron <5 0 10 0>;
+    pos \Aogonek <5 0 10 0>;
+    pos \Aring <5 0 10 0>;
+    pos \Atilde <5 0 10 0>;
+    pos \AE <5 0 10 0>;
+    pos \Cacute <5 0 10 0>;
+    pos \Ccaron <5 0 10 0>;
+    pos \Ccedilla <5 0 10 0>;
+    pos \Cdotaccent <5 0 10 0>;
+    pos \Eth <5 0 10 0>;
+    pos \Dcaron <5 0 10 0>;
+    pos \Dcroat <5 0 10 0>;
+    pos \Eacute <5 0 10 0>;
+    pos \Ecaron <5 0 10 0>;
+    pos \Ecircumflex <5 0 10 0>;
+    pos \Edieresis <5 0 10 0>;
+    pos \Edotaccent <5 0 10 0>;
+    pos \Egrave <5 0 10 0>;
+    pos \Emacron <5 0 10 0>;
+    pos \Eogonek <5 0 10 0>;
+    pos \Gbreve <5 0 10 0>;
+    pos \Gcommaaccent <5 0 10 0>;
+    pos \Gdotaccent <5 0 10 0>;
+    pos \Hbar <5 0 10 0>;
+    pos \IJ <5 0 10 0>;
+    pos \Iacute <5 0 10 0>;
+    pos \Icircumflex <5 0 10 0>;
+    pos \Idieresis <5 0 10 0>;
+    pos \Idotaccent <5 0 10 0>;
+    pos \Igrave <5 0 10 0>;
+    pos \Imacron <5 0 10 0>;
+    pos \Iogonek <5 0 10 0>;
+    pos \Kcommaaccent <5 0 10 0>;
+    pos \Lacute <5 0 10 0>;
+    pos \Lcaron <5 0 10 0>;
+    pos \Lcommaaccent <5 0 10 0>;
+    pos \Ldot <5 0 10 0>;
+    pos \Lslash <5 0 10 0>;
+    pos \Nacute <5 0 10 0>;
+    pos \Ncaron <5 0 10 0>;
+    pos \Ncommaaccent <5 0 10 0>;
+    pos \Eng <5 0 10 0>;
+    pos \Ntilde <5 0 10 0>;
+    pos \Oacute <5 0 10 0>;
+    pos \Ocircumflex <5 0 10 0>;
+    pos \Odieresis <5 0 10 0>;
+    pos \Ograve <5 0 10 0>;
+    pos \Ohungarumlaut <5 0 10 0>;
+    pos \Omacron <5 0 10 0>;
+    pos \Oslash <5 0 10 0>;
+    pos \Otilde <5 0 10 0>;
+    pos \OE <5 0 10 0>;
+    pos \Thorn <5 0 10 0>;
+    pos \Racute <5 0 10 0>;
+    pos \Rcaron <5 0 10 0>;
+    pos \Rcommaaccent <5 0 10 0>;
+    pos \Sacute <5 0 10 0>;
+    pos \Scaron <5 0 10 0>;
+    pos \Scedilla <5 0 10 0>;
+    pos \Scommaaccent <5 0 10 0>;
+    pos \Tbar <5 0 10 0>;
+    pos \Tcaron <5 0 10 0>;
+    pos \Tcommaaccent <5 0 10 0>;
+    pos \uni021A <5 0 10 0>;
+    pos \Uacute <5 0 10 0>;
+    pos \Ucircumflex <5 0 10 0>;
+    pos \Udieresis <5 0 10 0>;
+    pos \Ugrave <5 0 10 0>;
+    pos \Uhungarumlaut <5 0 10 0>;
+    pos \Umacron <5 0 10 0>;
+    pos \Uogonek <5 0 10 0>;
+    pos \Uring <5 0 10 0>;
+    pos \Wacute <5 0 10 0>;
+    pos \Wcircumflex <5 0 10 0>;
+    pos \Wdieresis <5 0 10 0>;
+    pos \Wgrave <5 0 10 0>;
+    pos \Yacute <5 0 10 0>;
+    pos \Ycircumflex <5 0 10 0>;
+    pos \Ydieresis <5 0 10 0>;
+    pos \Ygrave <5 0 10 0>;
+    pos \Zacute <5 0 10 0>;
+    pos \Zcaron <5 0 10 0>;
+    pos \Zdotaccent <5 0 10 0>;
+} cpspCapitalSpacinginLatinlookup6;
+
+lookup cpspCapitalSpacinginLatinlookup7 {
+  lookupflag 0;
+    pos \A <5 0 10 0>;
+    pos \B <5 0 10 0>;
+    pos \C <5 0 10 0>;
+    pos \D <5 0 10 0>;
+    pos \E <5 0 10 0>;
+    pos \F <5 0 10 0>;
+    pos \G <5 0 10 0>;
+    pos \H <5 0 10 0>;
+    pos \I <5 0 10 0>;
+    pos \J <5 0 10 0>;
+    pos \K <5 0 10 0>;
+    pos \L <5 0 10 0>;
+    pos \M <5 0 10 0>;
+    pos \N <5 0 10 0>;
+    pos \O <5 0 10 0>;
+    pos \P <5 0 10 0>;
+    pos \Q <5 0 10 0>;
+    pos \R <5 0 10 0>;
+    pos \S <5 0 10 0>;
+    pos \T <5 0 10 0>;
+    pos \U <5 0 10 0>;
+    pos \V <5 0 10 0>;
+    pos \W <5 0 10 0>;
+    pos \X <5 0 10 0>;
+    pos \Y <5 0 10 0>;
+    pos \Z <5 0 10 0>;
+    pos \Aacute <5 0 10 0>;
+    pos \Abreve <5 0 10 0>;
+    pos \Acircumflex <5 0 10 0>;
+    pos \Adieresis <5 0 10 0>;
+    pos \Agrave <5 0 10 0>;
+    pos \Amacron <5 0 10 0>;
+    pos \Aogonek <5 0 10 0>;
+    pos \Aring <5 0 10 0>;
+    pos \Atilde <5 0 10 0>;
+    pos \AE <5 0 10 0>;
+    pos \Cacute <5 0 10 0>;
+    pos \Ccaron <5 0 10 0>;
+    pos \Ccedilla <5 0 10 0>;
+    pos \Cdotaccent <5 0 10 0>;
+    pos \Eth <5 0 10 0>;
+    pos \Dcaron <5 0 10 0>;
+    pos \Dcroat <5 0 10 0>;
+    pos \Eacute <5 0 10 0>;
+    pos \Ecaron <5 0 10 0>;
+    pos \Ecircumflex <5 0 10 0>;
+    pos \Edieresis <5 0 10 0>;
+    pos \Edotaccent <5 0 10 0>;
+    pos \Egrave <5 0 10 0>;
+    pos \Emacron <5 0 10 0>;
+    pos \Eogonek <5 0 10 0>;
+    pos \Gbreve <5 0 10 0>;
+    pos \Gcommaaccent <5 0 10 0>;
+    pos \Gdotaccent <5 0 10 0>;
+    pos \Hbar <5 0 10 0>;
+    pos \IJ <5 0 10 0>;
+    pos \Iacute <5 0 10 0>;
+    pos \Icircumflex <5 0 10 0>;
+    pos \Idieresis <5 0 10 0>;
+    pos \Idotaccent <5 0 10 0>;
+    pos \Igrave <5 0 10 0>;
+    pos \Imacron <5 0 10 0>;
+    pos \Iogonek <5 0 10 0>;
+    pos \Kcommaaccent <5 0 10 0>;
+    pos \Lacute <5 0 10 0>;
+    pos \Lcaron <5 0 10 0>;
+    pos \Lcommaaccent <5 0 10 0>;
+    pos \Ldot <5 0 10 0>;
+    pos \Lslash <5 0 10 0>;
+    pos \Nacute <5 0 10 0>;
+    pos \Ncaron <5 0 10 0>;
+    pos \Ncommaaccent <5 0 10 0>;
+    pos \Eng <5 0 10 0>;
+    pos \Ntilde <5 0 10 0>;
+    pos \Oacute <5 0 10 0>;
+    pos \Ocircumflex <5 0 10 0>;
+    pos \Odieresis <5 0 10 0>;
+    pos \Ograve <5 0 10 0>;
+    pos \Ohungarumlaut <5 0 10 0>;
+    pos \Omacron <5 0 10 0>;
+    pos \Oslash <5 0 10 0>;
+    pos \Otilde <5 0 10 0>;
+    pos \OE <5 0 10 0>;
+    pos \Thorn <5 0 10 0>;
+    pos \Racute <5 0 10 0>;
+    pos \Rcaron <5 0 10 0>;
+    pos \Rcommaaccent <5 0 10 0>;
+    pos \Sacute <5 0 10 0>;
+    pos \Scaron <5 0 10 0>;
+    pos \Scedilla <5 0 10 0>;
+    pos \Scommaaccent <5 0 10 0>;
+    pos \Tbar <5 0 10 0>;
+    pos \Tcaron <5 0 10 0>;
+    pos \Tcommaaccent <5 0 10 0>;
+    pos \uni021A <5 0 10 0>;
+    pos \Uacute <5 0 10 0>;
+    pos \Ucircumflex <5 0 10 0>;
+    pos \Udieresis <5 0 10 0>;
+    pos \Ugrave <5 0 10 0>;
+    pos \Uhungarumlaut <5 0 10 0>;
+    pos \Umacron <5 0 10 0>;
+    pos \Uogonek <5 0 10 0>;
+    pos \Uring <5 0 10 0>;
+    pos \Wacute <5 0 10 0>;
+    pos \Wcircumflex <5 0 10 0>;
+    pos \Wdieresis <5 0 10 0>;
+    pos \Wgrave <5 0 10 0>;
+    pos \Yacute <5 0 10 0>;
+    pos \Ycircumflex <5 0 10 0>;
+    pos \Ydieresis <5 0 10 0>;
+    pos \Ygrave <5 0 10 0>;
+    pos \Zacute <5 0 10 0>;
+    pos \Zcaron <5 0 10 0>;
+    pos \Zdotaccent <5 0 10 0>;
+} cpspCapitalSpacinginLatinlookup7;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script cyrl;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+     language BGR  exclude_dflt;
+      lookup kernHorizontalKerninglookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+     language CAT  exclude_dflt;
+      lookup kernHorizontalKerninglookup0;
+     language MOL  exclude_dflt;
+      lookup kernHorizontalKerninglookup0;
+     language ROM  exclude_dflt;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+
+feature cpsp {
+
+ script DFLT;
+     language dflt ;
+      lookup cpspCapitalSpacinglookup1;
+      lookup cpspCapitalSpacinglookup2;
+
+ script cyrl;
+     language dflt ;
+      lookup cpspCapitalSpacinglookup1;
+      lookup cpspCapitalSpacinglookup2;
+      lookup cpspCapitalSpacinginCyrilliclookup3;
+     language BGR  exclude_dflt;
+      lookup cpspCapitalSpacinglookup1;
+      lookup cpspCapitalSpacinglookup2;
+      lookup cpspCapitalSpacinginCyrilliclookup3;
+
+ script latn;
+     language dflt ;
+      lookup cpspCapitalSpacinglookup1;
+      lookup cpspCapitalSpacinglookup2;
+      lookup cpspCapitalSpacinginLatinlookup4;
+      lookup cpspCapitalSpacinginLatinlookup5;
+      lookup cpspCapitalSpacinginLatinlookup6;
+      lookup cpspCapitalSpacinginLatinlookup7;
+     language CAT  exclude_dflt;
+      lookup cpspCapitalSpacinglookup1;
+      lookup cpspCapitalSpacinglookup2;
+      lookup cpspCapitalSpacinginLatinlookup4;
+      lookup cpspCapitalSpacinginLatinlookup5;
+      lookup cpspCapitalSpacinginLatinlookup6;
+      lookup cpspCapitalSpacinginLatinlookup7;
+     language MOL  exclude_dflt;
+      lookup cpspCapitalSpacinglookup1;
+      lookup cpspCapitalSpacinglookup2;
+      lookup cpspCapitalSpacinginLatinlookup4;
+      lookup cpspCapitalSpacinginLatinlookup5;
+      lookup cpspCapitalSpacinginLatinlookup6;
+      lookup cpspCapitalSpacinginLatinlookup7;
+     language ROM  exclude_dflt;
+      lookup cpspCapitalSpacinglookup1;
+      lookup cpspCapitalSpacinglookup2;
+      lookup cpspCapitalSpacinginLatinlookup4;
+      lookup cpspCapitalSpacinginLatinlookup5;
+      lookup cpspCapitalSpacinginLatinlookup6;
+      lookup cpspCapitalSpacinginLatinlookup7;
+} cpsp;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\space \exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T 
+	\U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar 
+	\braceright \asciitilde \afii10023 \afii10052 \afii10053 \afii10054 \afii10055 
+	\afii10056 \afii10057 \afii10061 \afii10062 \afii10017 \afii10018 \afii10019 
+	\afii10020 \afii10021 \afii10022 \afii10024 \afii10025 \afii10026 \afii10027 
+	\afii10028 \afii10029 \afii10030 \afii10031 \afii10032 \afii10033 \afii10034 
+	\afii10035 \afii10036 \afii10037 \afii10038 \afii10039 \afii10040 \afii10041 
+	\afii10042 \afii10043 \afii10044 \afii10045 \afii10046 \afii10047 \afii10048 
+	\afii10049 \afii10065 \afii10066 \afii10067 \afii10068 \afii10069 \afii10070 
+	\afii10072 \afii10073 \afii10074 \afii10075 \afii10076 \afii10077 \afii10078 
+	\afii10079 \afii10080 \afii10081 \afii10082 \afii10083 \afii10084 \afii10085 
+	\afii10086 \afii10087 \afii10088 \afii10089 \afii10090 \afii10091 \afii10092 
+	\afii10093 \afii10094 \afii10095 \afii10096 \afii10097 \afii61352 \afii10071 
+	\afii10100 \afii10101 \afii10102 \afii10103 \afii10104 \afii10105 \afii10109 
+	\section \afii10110 \uni0414.loclBGR \uni041B.loclBGR \uni0432.loclBGR 
+	\uni0433.loclBGR \uni0434.loclBGR \uni0436.loclBGR \uni0437.loclBGR 
+	\uni0438.loclBGR \uni0439.loclBGR \uni043A.loclBGR \uni043B.loclBGR 
+	\uni043F.loclBGR \uni0442.loclBGR \uni0446.loclBGR \uni0448.loclBGR 
+	\uni0449.loclBGR \uni044A.loclBGR \uni044B.loclBGR \uni044C.loclBGR 
+	\uni044E.loclBGR \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
+	\Aogonek \Aring \Atilde \AE \Cacute \Ccaron \Ccedilla \Cdotaccent \Eth \Dcaron 
+	\Dcroat \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave \Emacron 
+	\Eogonek \Gbreve \Gcommaaccent \Gdotaccent \Hbar \IJ \Iacute \Icircumflex 
+	\Idieresis \Idotaccent \Igrave \Imacron \Iogonek \Kcommaaccent \Lacute \Lcaron 
+	\Lcommaaccent \Lslash \Nacute \Ncaron \Ncommaaccent \Eng \Ntilde \Oacute 
+	\Ocircumflex \Odieresis \Ograve \Ohungarumlaut \Omacron \Oslash \Otilde \OE 
+	\Thorn \Racute \Rcaron \Rcommaaccent \Sacute \Scaron \Scedilla \Scommaaccent 
+	\Tbar \Tcaron \Tcommaaccent \uni021A \Uacute \Ucircumflex \Udieresis \Ugrave 
+	\Uhungarumlaut \Umacron \Uogonek \Uring \Wacute \Wcircumflex \Wdieresis \Wgrave 
+	\Yacute \Ycircumflex \Ydieresis \Ygrave \Zacute \Zcaron \Zdotaccent \aacute 
+	\abreve \acircumflex \adieresis \agrave \amacron \aogonek \aring \atilde \ae 
+	\cacute \ccaron \ccedilla \cdotaccent \eth \dcaron \dcroat \eacute \ecaron 
+	\ecircumflex \edieresis \edotaccent \egrave \emacron \eogonek \gbreve 
+	\gcommaaccent \gdotaccent \hbar \dotlessi \iacute \icircumflex \idieresis 
+	\igrave \ij \imacron \iogonek \kcommaaccent \lacute \lcaron \lcommaaccent 
+	\lslash \nacute \ncaron \ncommaaccent \eng \ntilde \oacute \ocircumflex 
+	\odieresis \ograve \ohungarumlaut \omacron \oslash \otilde \oe \thorn \racute 
+	\rcaron \rcommaaccent \sacute \scaron \scedilla \scommaaccent \germandbls \tbar 
+	\tcaron \tcommaaccent \uni021B \uacute \ucircumflex \udieresis \ugrave 
+	\uhungarumlaut \umacron \uogonek \uring \wacute \wcircumflex \wdieresis \wgrave 
+	\yacute \ycircumflex \ydieresis \ygrave \zacute \zcaron \zdotaccent \fraction 
+	\bullet \ellipsis \exclamdown \periodcentered \questiondown \emdash \endash 
+	\guillemotleft \guillemotright \guilsinglleft \guilsinglright \quotedblbase 
+	\quotedblleft \quotedblright \quoteleft \quoteright \quotesinglbase \cent 
+	\currency \Euro \sterling \yen \approxequal \divide \emptyset \greaterequal 
+	\infinity \integral \lessequal \logicalnot \minus \multiply \notequal 
+	\partialdiff \perthousand \plusminus \product \radical \summation \lozenge 
+	\brokenbar \copyright \dagger \daggerdbl \degree \paragraph \registered 
+	\trademark \acute \breve \caron \cedilla \circumflex \dieresis \dotaccent 
+	\hungarumlaut \macron \ogonek \ring \tilde \uni0326 \NULL \CR \afii10058 
+	\afii10059 \afii10060 \afii10051 \afii10145 \uni040D \uni045D \uni045D.loclBGR 
+	\afii10099 \afii10108 \afii10106 \afii10107 \afii10193 \uni00AD \uni0450 
+	\afii10024.swsh \afii10072.swsh \afii10028.swsh \afii10076.swsh ];
+@GDEF_Ligature = [\Ldot \ldot \uniFB01 \uniFB02 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotright" format="1">
+  <advance width="502"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="243" y="248" type="line"/>
+      <point x="106" y="82" type="line"/>
+      <point x="77" y="82" type="line"/>
+      <point x="214" y="248" type="line"/>
+      <point x="77" y="414" type="line"/>
+      <point x="106" y="414" type="line"/>
+    </contour>
+    <contour>
+      <point x="363" y="248" type="line"/>
+      <point x="226" y="82" type="line"/>
+      <point x="197" y="82" type="line"/>
+      <point x="334" y="248" type="line"/>
+      <point x="197" y="414" type="line"/>
+      <point x="226" y="414" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>82</integer>
+            <key>width</key>
+            <integer>332</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>77</integer>
+            <key>width</key>
+            <integer>286</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
