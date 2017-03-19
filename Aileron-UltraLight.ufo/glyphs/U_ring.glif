@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uring" format="1">
+  <advance width="600"/>
+  <unicode hex="016E"/>
+  <outline>
+    <contour>
+      <point x="312" y="844" type="curve" smooth="yes"/>
+      <point x="346" y="844"/>
+      <point x="375" y="821"/>
+      <point x="375" y="783" type="curve" smooth="yes"/>
+      <point x="375" y="745"/>
+      <point x="346" y="722"/>
+      <point x="312" y="722" type="curve" smooth="yes"/>
+      <point x="278" y="722"/>
+      <point x="249" y="745"/>
+      <point x="249" y="783" type="curve" smooth="yes"/>
+      <point x="249" y="821"/>
+      <point x="278" y="844"/>
+    </contour>
+    <contour>
+      <point x="312" y="823" type="curve" smooth="yes"/>
+      <point x="287" y="823"/>
+      <point x="273" y="805"/>
+      <point x="273" y="783" type="curve" smooth="yes"/>
+      <point x="273" y="761"/>
+      <point x="287" y="743"/>
+      <point x="312" y="743" type="curve" smooth="yes"/>
+      <point x="337" y="743"/>
+      <point x="351" y="761"/>
+      <point x="351" y="783" type="curve" smooth="yes"/>
+      <point x="351" y="805"/>
+      <point x="337" y="823"/>
+    </contour>
+    <contour>
+      <point x="534" y="690" type="line"/>
+      <point x="534" y="233" type="line" smooth="yes"/>
+      <point x="534" y="218"/>
+      <point x="533" y="197"/>
+      <point x="531" y="166" type="curve" smooth="yes"/>
+      <point x="524" y="60"/>
+      <point x="450" y="-14"/>
+      <point x="312" y="-14" type="curve" smooth="yes"/>
+      <point x="174" y="-14"/>
+      <point x="100" y="60"/>
+      <point x="93" y="166" type="curve" smooth="yes"/>
+      <point x="91" y="197"/>
+      <point x="90" y="218"/>
+      <point x="90" y="233" type="curve" smooth="yes"/>
+      <point x="90" y="690" type="line"/>
+      <point x="112" y="690" type="line"/>
+      <point x="112" y="229" type="line" smooth="yes"/>
+      <point x="112" y="206"/>
+      <point x="113" y="188"/>
+      <point x="115" y="167" type="curve" smooth="yes"/>
+      <point x="123" y="80"/>
+      <point x="181" y="7"/>
+      <point x="312" y="7" type="curve" smooth="yes"/>
+      <point x="443" y="7"/>
+      <point x="501" y="80"/>
+      <point x="509" y="167" type="curve" smooth="yes"/>
+      <point x="511" y="188"/>
+      <point x="512" y="206"/>
+      <point x="512" y="229" type="curve" smooth="yes"/>
+      <point x="512" y="690" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-14</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>670</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>722</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>823</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>90</integer>
+            <key>width</key>
+            <integer>22</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>249</integer>
+            <key>width</key>
+            <integer>24</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>351</integer>
+            <key>width</key>
+            <integer>24</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>512</integer>
+            <key>width</key>
+            <integer>22</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
